@@ -8,7 +8,9 @@ function App() {
 
   return (
     <>
-    
+      <header>
+        <img src="/HypeFitness-logo.png" alt="" className='logo' width='98px' height='98px'/>
+      </header>
     </>
   )
 }
