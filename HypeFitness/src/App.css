@@ -2,20 +2,138 @@
 {
   margin: 0;
   padding: 0;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
 body
 {
   background-color: #222222;
+  font-weight: 400;
 }
 
 header
 {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
   background-color: #F7C41F;
-  font-family: 'Montserrat Alternates', sans-serif;
-  width: 100%;
-  height: 100px;
-  justify-content: center;
+  width: auto;
+  height: 80px;
+  align-content: center;
+  font-size: 15px
+}
+
+.logo
+{
+  margin-top: 35px;
+  margin-left: 35px;
+}
+
+#leftHeader
+{
+  display: flex;
+  justify-self: flex-end;
   align-items: center;
+}
+
+ul
+{
+  display: flex;
+  padding: 20px;
+}
+
+li
+{
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.button
+{
+  border-radius: 14px;
+  border: none;
+  width: 100px;
+  height: 35px;
+  background-color: #03001C;
+  color: white;
+  font-size: 15px;
+}
+
+#buttons
+{
+  padding: 50px;
+}
+
+#btnLogin
+{
+  background-color: transparent;
+  color: black;
+  border: none;
+  width: 70px;
+  font-weight: 600;
+}
+
+#btnSignUp
+{
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+main
+{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.AboutUs
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+#rightMain
+{
+display: flex;
+flex-direction: column;
+text-align: start;
+justify-content: center;
+align-items: center;
+width: auto;
+padding-right: 220px;
+}
+
+.titles
+{
+  font-size: 18px;
+  font-weight: 600;
+
+}
+
+.hrDiv
+{
+  margin: 5px;
+}
+
+hr
+{
+    margin: 10px;
+    border-color: black;
+    width: 60px;
+}
+
+#lblAboutUs
+{
+  display: inline-block;
+  width: 556px;
+  height: 224px;
+  font-weight: 100;
+}
+
+#imgCharacter-default
+{
+  width: 200px;
+  height: auto;
 }
