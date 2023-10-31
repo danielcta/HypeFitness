@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import '../public/HypeFitness-character.png'
 import '../public/HypeFitness-logo.png'
+import '../public/imgLandingPage.png'
 import './App.css'
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
   return (
     <>
       <header>
-        <img src="/HypeFitness-logo.png" alt="" className='logo' width='90px' height='60px'/>
+        <img src="/HypeFitness-logo.png" alt="" className='logo' width={'auto'} height={'50px'}/>
         <div id='leftHeader'>
           <ul>
             <li>Sobre Nós</li>
@@ -27,7 +28,7 @@ function App() {
         </div>
       </header>
       <main>
-        <img src="" alt="imgLandingPage" width={'100%'} height={'800px'}/>
+        <img src="../public/imgLandingPage.png" alt="imgLandingPage" width={'100%'} id='imgLandingPage'/>
         <div className='AboutUs'>
           <div id='rightAboutUs'>
             <label className='titles'>Sobre Nós</label>

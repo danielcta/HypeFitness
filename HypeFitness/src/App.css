@@ -16,10 +16,10 @@ header
   display: grid;
   grid-template-columns: 1fr 2fr;
   background-color: #F7C41F;
-  width: auto;
-  height: 80px;
+  width: 100%;
+  height: 70px;
   align-content: center;
-  font-size: 15px
+  font-size: 13.5px
 }
 
 .logo
@@ -55,7 +55,7 @@ li
   height: 35px;
   background-color: #03001C;
   color: white;
-  font-size: 15px;
+  font-size: 13.5px;
 }
 
 #buttons
@@ -83,12 +83,18 @@ main
   flex-direction: column;
 }
 
+#imgLandingPage
+{
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 .AboutUs
 {
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    padding: 150px;
 }
 
 #rightAboutUs
