@@ -79,9 +79,8 @@ li
 
 main
 {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
 }
 
 .AboutUs
@@ -92,9 +91,7 @@ main
     color: white;
 }
 
-
-
-#rightMain
+#rightAboutUs
 {
 display: flex;
 flex-direction: column;
@@ -102,7 +99,8 @@ text-align: start;
 justify-content: center;
 align-items: center;
 width: auto;
-padding-right: 220px;
+padding-right: 150px;
+
 }
 
 .titles
@@ -136,4 +134,9 @@ hr
 {
   width: 200px;
   height: auto;
+  padding-left: 200px;
+  background-color: #333333;
+  border-radius: 80px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  align-self: center;
 }

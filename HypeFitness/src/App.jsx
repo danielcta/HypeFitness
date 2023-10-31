@@ -29,7 +29,7 @@ function App() {
       <main>
         <img src="" alt="imgLandingPage" width={'100%'} height={'800px'}/>
         <div className='AboutUs'>
-          <div id='rightMain'>
+          <div id='rightAboutUs'>
             <label className='titles'>Sobre Nós</label>
             <div className='hrDiv'>
               <hr />
