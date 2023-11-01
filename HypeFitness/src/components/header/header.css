@@ -1,0 +1,74 @@
+*
+{
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+header
+{
+  position: fixed;
+  -webkit-transform-origin-z: 9999999px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: #F7C41F;
+  width: 100%;
+  height: 70px;
+  align-content: center;
+  font-size: 13.5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 10);
+  font-weight: 400;
+}
+
+.logo
+{
+  margin-top: 35px;
+  margin-left: 35px;
+}
+
+#leftHeader
+{
+  display: flex;
+  justify-self: flex-end;
+  align-items: center;
+}
+
+ul
+{
+  display: flex;
+  padding: 20px;
+}
+
+li
+{
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.button
+{
+  border-radius: 14px;
+  border: none;
+  width: 100px;
+  height: 35px;
+  background-color: #03001C;
+  color: white;
+  font-size: 13.5px;
+}
+
+#buttons
+{
+  padding: 50px;
+}
+
+#btnLogin
+{
+  background-color: transparent;
+  color: black;
+  border: none;
+  width: 70px;
+  font-weight: 600;
+}
+
+#btnSignUp
+{
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
