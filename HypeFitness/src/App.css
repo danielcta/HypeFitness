@@ -13,13 +13,15 @@ body
 
 header
 {
+  position: fixed;
   display: grid;
   grid-template-columns: 1fr 2fr;
   background-color: #F7C41F;
   width: 100%;
   height: 70px;
   align-content: center;
-  font-size: 13.5px
+  font-size: 13.5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 10);
 }
 
 .logo
