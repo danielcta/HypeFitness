@@ -1,12 +1,19 @@
 import './landingPage.css'
+import Header from '../../components/header/header';
+import Footer from '../../components/footer/footer'
+import { Link } from 'react-router-dom';
 
-function landingPage()
+function LandingPage()
 {
     return(
         <>
-            <input type="submit" value="Registrar academia" />
+        <Header />
+        <main>
+            
+        </main>
+        <Footer />
         </>
     )
 }
 
-export default landingPage
+export default LandingPage

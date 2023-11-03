@@ -1,20 +1,14 @@
 import { useState } from 'react'
-import '../public/HypeFitness-character.png'
-import '../public/HypeFitness-logo.png'
-import '../public/imgLandingPage.png'
+import '../public/HypeFitnessLogo.png'
+import './images/imgLandingPage.png'
 import './App.css'
-import Header from './components/header/header.jsx'
-import Footer from './components/footer/footer.jsx'
-import landingPage from './pages/landingPage/landingPage'
+import AppRoutes from './routes'
 
 function App() {
   
 
   return (
-    <>
-      <Header />
-      <Footer />
-    </>
+    <AppRoutes />
   )
 }
 

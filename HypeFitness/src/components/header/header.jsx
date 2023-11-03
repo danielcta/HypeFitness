@@ -1,27 +1,28 @@
 import './header.css'
-import '../../../public/HypeFitness-logo.png'
+import '../../../public/HypeFitnessLogo.png'
+import { Link } from 'react-router-dom'
 
 function Header()
 {
     return(
         <>
-        <header>
-            <img src="/HypeFitness-logo.png" alt="" className='logo' width={'auto'} height={'50px'}/>
-            <div id='leftHeader'>
-                <ul>
-                    <li>Sobre Nós</li>
-                    <li>Nossos Serviços</li>        
-                    <li>Academias Parceiras</li>          
-                    <li>Consultoria</li>
-                    <li>Nutrição</li>
-                    <li>Personal</li>
-                    <li>Exercícios</li>
-                </ul>
-                <div id='buttons'>
-                    <input type="submit" value="Login" className='button' id='btnLogin'/>
-                    <input type="submit" value="Cadastrar" className='button' id='btnSignUp'/>
+        <header>            
+            <div id='rightHeader'>
+                <Link to={'/'}><img src="/HypeFitnessLogo.png" alt="" className='logo' width={'auto'} height={'50px'}/></Link>
+                <nav>
+                   <Link className={'links'} to='/Services'>Nossos Serviços</Link>        
+                   <Link className={'links'} to='/'>Academias Parceiras</Link>         
+                   <Link className={'links'} to='/'>Consultoria</Link>
+                   <Link className={'links'} to='/'>Nutrição</Link>
+                   <Link className={'links'} to='/'>Personal</Link>
+                   <Link className={'links'} to='/'>Exercício</Link>
+                </nav>
                 </div>
-            </div>
+                <div id='buttons'>
+                    <Link to={'/Login'} className='button' id='btnLogin'>Login</Link>
+                    <Link to={'/Cadastrar'} className='button' id='btnSignUp'>Cadastrar</Link>
+                </div>
+            
             </header>
         </>
     )
