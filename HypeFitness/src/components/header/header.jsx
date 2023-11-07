@@ -20,7 +20,7 @@ function Header()
                 </div>
                 <div id='buttons'>
                     <Link to={'/Login'} className='button' id='btnLogin'>Login</Link>
-                    <Link to={'/Cadastrar'} className='button' id='btnSignUp'>Cadastrar</Link>
+                    <Link to={'/SignUp'} className='button' id='btnSignUp'>Cadastrar</Link>
                 </div>
             
             </header>

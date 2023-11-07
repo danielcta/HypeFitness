@@ -8,42 +8,14 @@ justify-content: center;
 align-items: start;
 width: auto;
 padding-right: 150px;
+}
+
+ul
+{
 
 }
 
-.titles
+li
 {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  align-self: center;
-}
-
-#AboutUs
-{
-    display: grid;
-}
-
-#lblAboutUs
-{
-  display: flex;
-  width: auto;
-  height: 224px;
-  font-weight: 100;
-}
-
-#text
-{
-    margin-right: 250px;
-}
-
-#imgCharacter-default
-{
-  width: auto;
-  height: 450px;
-  padding-left: 200px;
-  background-color: #333333;
-  border-radius: 250px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-  align-self: center;
+  text-decoration: none;
 }
