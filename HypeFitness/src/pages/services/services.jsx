@@ -1,5 +1,4 @@
 import './services.css'
-import HypeFitnessCharacter from '../../images/HypeFitnessCharacter.png'
 import Header from "../../components/header/header"
 import Footer from "../../components/footer/footer"
 

@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import '../public/HypeFitnessLogo.png'
-import './images/imgLandingPage.png'
 import './App.css'
 import AppRoutes from './routes'
 
