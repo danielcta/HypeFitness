@@ -1,5 +1,40 @@
+
+body
+{
+    color: white;
+}
+
 #imgLandingPage
 {
-position: relative;
+    position: relative;
+    aspect-ratio: 2/1;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 10);
+    background-color: black;
+}
 
+#about
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+hr
+{
+  margin: 6px;
+  width: 60px;
+  align-self: center;
+}
+
+#textAboutUs
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+}
+
+#HypeCharacterDefault
+{
+    padding-left: 200px;
 }

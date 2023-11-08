@@ -5,7 +5,8 @@ footer
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: auto;
+  height: 60px;
+  bottom: 0;
   background-color: black;
   color:  white;
 }

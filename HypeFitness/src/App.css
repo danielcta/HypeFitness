@@ -7,14 +7,8 @@
 
 body
 {
-  background-color: #222222;
+  background-color: #222;
   font-weight: 400;
-}
-
-main
-{
-  display: flex;
-  flex-direction: column;
 }
 
 #imgLandingPage
@@ -22,3 +16,19 @@ main
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+.title
+{
+
+  font-weight: 600;
+  font-size: 17px;
+  padding-bottom: 20px;
+  align-self: center;
+}
+
+.text
+{
+  display: flex;
+  width: 600px;
+  padding-top: 20px;
+  text-align: justify;
+}
