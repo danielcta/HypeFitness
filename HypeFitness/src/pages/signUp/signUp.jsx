@@ -1,4 +1,5 @@
 import './signUp.css'
+import imgLogin from '../../assets/imgLogin.jpg'
 
 function SignUp()
 {
@@ -6,9 +7,7 @@ function SignUp()
     return(
         <>
             <div id='signUp'>
-                <div id='rightSignUp' height={'100%'} width={'50%'}>
-                    <img src="" alt=""/>
-                </div>
+                    <img src={imgLogin} alt="" id='imgLogin' width={'40%'}/>
                 <div id='leftSignUp'  height={'100%'} width={'50%'}>
                     <img src="/HypeFitnessLogo.png" alt="" width={'100px'} height={'auto'}/>
                     <div>
