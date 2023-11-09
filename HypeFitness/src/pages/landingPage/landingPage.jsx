@@ -10,7 +10,7 @@ function LandingPage()
     return(
         <>
         <Header />
-        <div id='landingPage' className='main'>
+        <div id='landingPage'>
             <img src={imglandingpage} alt="" width='100%' id='imgLandingPage'/>
             <div id='about'>
                 <div id='textAboutUs'>
