@@ -3,15 +3,57 @@
     display: flex;
 }
 
-#imgLogin
+#imgSignIn
 {
-
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 10);
 }
 
-input
+#leftSignUp
 {
-    width: '1055px'; 
-    height: '638px';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 100px;
+}
+
+.logo
+{
+    margin-bottom: 40px;
+}
+
+.divData
+{
+    padding: 7px;
+}
+
+.inputData
+{
+    padding: 5px;
+    width: 500px;
     border: none;
     border-radius: 35px;
 }
+
+#registerType
+{
+    width: 300px;
+    margin-bottom: 20px;
+    margin-right: 210px;
+}
+
+#txtBirthDay
+{
+    width: 300px;
+    margin-right: 200px;
+}
+
+#btnSignUp-SignUpPage
+{
+    margin-top: 25px;
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
