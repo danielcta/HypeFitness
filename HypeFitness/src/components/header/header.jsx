@@ -8,7 +8,7 @@ function Header()
         <>
         <header>            
             <div id='rightHeader'>
-                <Link to={'/'}><img src="/HypeFitnessLogo.png" alt="" className='logo' width={'auto'} height={'50px'}/></Link>
+                <Link to={'/'}><img src="/HypeFitnessLogo.png" alt="" className='logoHeader' width={'auto'} height={'50px'}/></Link>
                 <nav>
                    <Link className={'links'} to='/OurServices'>Nossos Serviços</Link>        
                    <Link className={'links'} to='/PartnerGyms'>Academias Parceiras</Link>         

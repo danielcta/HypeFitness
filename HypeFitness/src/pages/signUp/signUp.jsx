@@ -43,7 +43,7 @@ function SignUp() {
                         </div>
                     </div>
                     <div id='GymRegister'>
-                    
+                        
                     </div>
                     <input type="submit" value="Cadastrar" className='button' id='btnSignUp-SignUpPage' />      
                 </div>
