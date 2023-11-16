@@ -11,7 +11,7 @@ function LandingPage()
         <>
         <Header />
         <div id='landingPage'>
-            <img src={imglandingpage} alt="" width='100%' id='imgLandingPage'/>
+            <section></section>
             <div id='about'>
                 <div id='textAboutUs'>
                     <label className='title'>Sobre Nós</label>
